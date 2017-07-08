@@ -1,0 +1,206 @@
+body
+{
+	margin: 0 0 30px 0;
+	padding: 0;
+	background: #FFF;
+	font-size: 65%;
+	font-family:'Open Sans';
+	color: #666;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 800px;
+}
+
+#headercont
+{
+	width: 800px;
+	height: 200px;
+	border-bottom: 2px solid #666;
+}
+
+#headerleft
+{
+	float: left;
+	width: 300px;
+	height: 200px;
+}
+
+#headerleft h1 h2
+{
+	margin: 48px 0 0 15px;
+	padding: 0;
+	font-size: 200%;
+	font-weight: normal;
+	color: #000;
+	letter-spacing: -1px;
+}
+
+#headerleft h1 span
+{
+	color: #000;
+	font-weight: normal;
+}
+
+#headerright
+{
+	float: left;
+	width: 500px;
+	height: 200px;
+}
+
+#headerright ul
+{
+	margin: 55px 15px 0 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: right;
+	color: #CCC;
+}
+
+#headerright ul li
+{
+	display: inline-block;
+	margin: 0 0 0 10px;
+}
+
+#headerright ul li a
+{
+	text-decoration: none;
+	color: #999;
+	font-weight: bold;
+}
+
+#headerright ul li a.active
+{
+	text-decoration: none;
+	color: #F00;
+	font-weight: bold;
+}
+
+
+#maincont  h3
+{
+	margin: 0 0 15px 0;
+	padding: 5px 15px;
+	font-size: 120%;
+	font-weight: normal;
+	color: #000;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+#mainleft
+{
+	float: left;
+	width: 485px;
+	padding: 0 15px 0 0;
+}
+
+#mainleft img
+{
+	float: left;
+	border: 1px solid #CDCDCD;
+	padding: 5px;
+	margin: 0 15px 5px 15px;
+}
+
+
+#mainright 
+{
+	float: left;
+	width: 281px;
+    padding: 0 0 0 15px;
+    border: 2px solid #F4A460;
+    
+   }
+#mainright h2 {
+   border-bottom: 2px solid #F4A460;
+   padding: 20px;
+   }
+#mainright ul li {
+    display: inline;
+    margin: 10px;
+    padding: 20px;
+    color: #000;
+    
+}
+
+#container1 img {
+    background: url('../images/photo.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 2rem 0 0;
+    position: relative;
+    padding: 8rem 0 9.5rem;
+    height: auto;
+}
+.photo p, h4 {
+    color: white;
+    text-align: center;
+    position: relative;
+    
+}
+
+#container1 img p {
+    font: bold 3.2rem/3.6rem Trebuchet MS sans-serif;
+}
+
+#container1 img {
+    margin: 0 auto ;
+    display: block;
+    width: 800px;
+}
+#container1 img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    background: rgba(0,0,0,.5);
+   width: 100%;
+    margin: 2rem 0 0;
+    position: relative;
+    padding: 8rem 0 9.5rem;
+    }
+#container h1 {
+    font: 2rem 'Trebuchet MS', sans-serif;
+}
+#container h1::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 10px;
+    background: #fff;
+    border-left: solid 27px #00993f;
+    border-right: solid 27px #e6001c;
+}
+#headerright h1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 10px;
+    background: #f5f5f5;
+    margin: 0.5rem 0 2rem;
+    right: 10px;
+}
+@media screen and (min-width:768px) {
+    #container h1 {
+        position: relative;
+        text-align: center;
+    }
+    #container h1::before {
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+    #container h1::after {
+        position: absolute;
+        top: 50%;
+        margin: 0;
+        right: 0;
+    }
+    
+}
